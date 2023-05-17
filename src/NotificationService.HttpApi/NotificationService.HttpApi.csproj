@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <Import Project="..\..\common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>NotificationService</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="6.0.3" />
+    <PackageReference Include="Volo.Abp.Identity.HttpApi" Version="6.0.3" />
+    <PackageReference Include="Volo.Abp.SettingManagement.HttpApi" Version="6.0.3" />
+    <ProjectReference Include="..\NotificationService.Application.Contracts\NotificationService.Application.Contracts.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Samples\" />
+  </ItemGroup>
+
+</Project>

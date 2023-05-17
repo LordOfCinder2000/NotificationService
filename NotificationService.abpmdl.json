@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "NotificationService.Domain.Shared": {
+      "path": "src/NotificationService.Domain.Shared/NotificationService.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "NotificationService.Domain": {
+      "path": "src/NotificationService.Domain/NotificationService.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "NotificationService.Application.Contracts": {
+      "path": "src/NotificationService.Application.Contracts/NotificationService.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "NotificationService.Application": {
+      "path": "src/NotificationService.Application/NotificationService.Application.abppkg.json",
+      "folder": "src"
+    },
+    "NotificationService.EntityFrameworkCore": {
+      "path": "src/NotificationService.EntityFrameworkCore/NotificationService.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "NotificationService.MongoDB": {
+      "path": "src/NotificationService.MongoDB/NotificationService.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "NotificationService.HttpApi": {
+      "path": "src/NotificationService.HttpApi/NotificationService.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "NotificationService.HttpApi.Client": {
+      "path": "src/NotificationService.HttpApi.Client/NotificationService.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "NotificationService.TestBase": {
+      "path": "test/NotificationService.TestBase/NotificationService.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "NotificationService.EntityFrameworkCore.Tests": {
+      "path": "test/NotificationService.EntityFrameworkCore.Tests/NotificationService.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "NotificationService.MongoDB.Tests": {
+      "path": "test/NotificationService.MongoDB.Tests/NotificationService.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "NotificationService.Domain.Tests": {
+      "path": "test/NotificationService.Domain.Tests/NotificationService.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "NotificationService.Application.Tests": {
+      "path": "test/NotificationService.Application.Tests/NotificationService.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "NotificationService.HttpApi.Host": {
+      "path": "host/NotificationService.HttpApi.Host/NotificationService.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "NotificationService.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/NotificationService.HttpApi.Client.ConsoleTestApp/NotificationService.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "NotificationService.AuthServer": {
+      "path": "host/NotificationService.AuthServer/NotificationService.AuthServer.abppkg.json",
+      "folder": "host"
+    },
+    "NotificationService.Host.Shared": {
+      "path": "host/NotificationService.Host.Shared/NotificationService.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

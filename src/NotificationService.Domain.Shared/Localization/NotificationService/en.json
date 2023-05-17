@@ -1,0 +1,8 @@
+{
+  "culture": "en",
+  "texts": {
+    "MyAccount": "My account",
+    "SamplePageMessage": "A sample page for the NotificationService module",
+    "ReceiveNotifications": "Receive notifications"
+  }
+}

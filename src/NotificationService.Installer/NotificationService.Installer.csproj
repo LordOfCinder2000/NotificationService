@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <Import Project="..\..\common.props" />
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <GenerateEmbeddedFilesManifest>true</GenerateEmbeddedFilesManifest>
+        <RootNamespace>NotificationService</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.VirtualFileSystem" Version="6.0.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="..\..\NotificationService.abpmdl.json" />
+      <EmbeddedResource Include="..\..\NotificationService.abpmdl.json" />
+    </ItemGroup>
+
+</Project>
