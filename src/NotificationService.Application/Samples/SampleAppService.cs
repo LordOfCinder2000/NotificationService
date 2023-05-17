@@ -1,6 +1,8 @@
-﻿using NotificationService.Notifications;
+﻿using NotificationService.Localization;
+using NotificationService.Notifications;
 using System;
 using System.Threading.Tasks;
+using Volo.Abp.Localization;
 
 namespace NotificationService.Samples;
 
